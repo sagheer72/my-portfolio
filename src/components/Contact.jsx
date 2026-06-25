@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import { FaDribbble, FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter } from 'react-icons/fa'
 function Contact() {
   return (
-    <Motion.div 
+    <motion.div 
      initial={{opacity:0, y:50}}
                     whileinview={{opacity:1, y:0}}
                     transition={{duration: 1, ease:'easeOut'}}
@@ -93,8 +93,8 @@ classname='py-20 bg-dark-200'>
      </div>
     </div>
 </div>
-    </Motion.div>
+    </motion.div>
   )
 }
 
-export default Contact
+export default Contact;

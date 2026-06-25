@@ -1,7 +1,8 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-
-function project() {
+import { Projects } from '../assets/assets'
+import Projectcard from '../components/projectcard'
+function Project() {
   return (
     <div>
     <motion.div 
@@ -20,8 +21,8 @@ function project() {
 
             {/* project */}
             {
-              project.map((project, index)=>(
-                <projectcard key={index} {...project}/>
+              Projects.map((project, index)=>(
+                <Projectcard key={index} {...project}/>
               ))
             }
           </div>
@@ -32,4 +33,4 @@ function project() {
   )
 }
 
-export default project
+export default Project

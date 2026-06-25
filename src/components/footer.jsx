@@ -1,6 +1,6 @@
 import React from 'react'
 
-function footer() {
+function Footer() {
   return (
     <div className=' py-8 bg-dark-300'>
 <div className="container mx-auto px-6 text-center">
@@ -10,4 +10,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function projectcard( title, description, image, tech) {
+function Projectcard({ title, description, image, tech}) {
   return (
     <div className='bg-dark-300 rounded-2xl overflow-hidden hover:translate-y-2 transition duration-300 cursor-pointer'>
 <img src={image} alt={title} className='w-full h-60 object-cover' />
@@ -22,4 +22,4 @@ function projectcard( title, description, image, tech) {
   )
 }
 
-export default projectcard
+export default Projectcard;

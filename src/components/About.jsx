@@ -22,7 +22,7 @@ function About() {
                     
                     <motion.img 
                     initial={{opacity:0, y:50}}
-                    whileinview={{opacity:1, y:0}}
+                    whileInview={{opacity:1, y:0}}
                     transition={{duration: 0.9, ease:'easeOut'}}
                     viewport={{once: false, amount:0.2}}
                     className='w-full h-full object-cover'
